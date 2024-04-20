@@ -129,7 +129,6 @@ public class ArrayUtils {
 
         for (int i = arr1.length - 1; i > 0; i--) {
             int index = random.nextInt(i + 1);
-            // Swap arr1[i] with arr2[index] and arr2[i] with arr1[index]
             int temp = arr1[i];
             arr1[i] = arr2[index];
             arr2[index] = temp;
